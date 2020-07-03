@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pdynamics-jiangweifeng",
+    name="dynamics365-jiangweifeng", # Replace with your own username
     version="0.1.3",
     author="Weifeng Jiang",
     author_email="jiangweifeng@live.com",
@@ -18,5 +18,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3',
+    python_requires='>=3.5',
 )

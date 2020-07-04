@@ -5,13 +5,17 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pdynamics",
-    version="0.2.2",
+    version="0.2.3",
     author="Weifeng Jiang",
     author_email="jiangweifeng@live.com",
     description="Python connector for Microsoft Dynamics 365, supports AD, IFD and Online",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/jiangweifeng/pdynamics",
+    install_requires=[
+        'requests>=2.0.0',
+        'requests_ntlm>=1.1.0'
+    ],
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

@@ -9,6 +9,3 @@ pylint = "*"
 [packages]
 requests = "*"
 requests-ntlm = "*"
-
-[requires]
-python_version = "3.5"

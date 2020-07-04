@@ -5,3 +5,5 @@ build/*
 dist/*
 pdynamics_jiangweifeng.egg-info/*
 .vscode/*
+pdynamics.egg-info/*
+.DS_Store

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pdynamics",
-    version="0.2.1",
+    version="0.2.2",
     author="Weifeng Jiang",
     author_email="jiangweifeng@live.com",
     description="Python connector for Microsoft Dynamics 365, supports AD, IFD and Online",

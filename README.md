@@ -12,7 +12,7 @@ from pdynamics import crm
 Connect on-premises organizations via user and password
 
 AD access sample:
-```
+```python
 crmurl = 'http://servername:port/orgname/'
 user = 'domain\\username'
 password = 'yourpassword'
@@ -36,7 +36,7 @@ What's the token endpoint?
 When log in CRM, system will redirect to ADFS login page, url is something like https://mycrmorg.company.com:5555/adfs/ls/?wa=wsignin1.0&wtrealm=....., then your token endpoint will be https://mycrmorg.company.com:5555/adfs/oauth2/token
 
 IFD Connection Sample:
-```
+```python
 crmurl = 'https://mycrmorg.company.com:443/'
 tokenurl = 'https://mycrmorg.company.com:5555/adfs/oauth2/token'
 user = 'domain\\username'

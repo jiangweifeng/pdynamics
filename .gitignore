@@ -1,0 +1,7 @@
+*/.DS_Store
+.history/*
+__pycache__
+build/*
+dist/*
+pdynamics_jiangweifeng.egg-info/*
+.vscode/*

@@ -1,1 +1,1 @@
-from crm import client
+from pdynamics import crm

@@ -1,3 +1,7 @@
+pip install pdynamics
+
+from pdynamics import crm
+
 Connect on-premises organizations via user and password
 
 AD access sample:

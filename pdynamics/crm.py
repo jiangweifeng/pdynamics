@@ -34,7 +34,7 @@ class client:
         headers = {"Accept": "application/json, */*", "content-type": "application/json; charset=utf-8",
                    "OData-MaxVersion": "4.0", "OData-Version": "4.0"}
         if(self.return_formatted_value):
-            headers['Prefer'] = 'odata.include-annotations=OData.Community.Display.V1.formatted_value'
+            headers['Prefer'] = 'odata.include-annotations=OData.Community.Display.V1.FormattedValue'
         if(self.access_token):
             headers['Authorization'] = 'Bearer ' + self.access_token
         return headers
